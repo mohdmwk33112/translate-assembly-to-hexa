@@ -1,0 +1,27 @@
+Report
+
+1. Introduction
+The project introduces a C++ implementation of an assembler where each node in a linked list represents a line of assembly code. This innovative approach enhances the flexibility and dynamic management of assembly code structures. Additionally, the project incorporates robust error handling and the ability to differentiate between indirect and non-indirect memory instructions.
+
+
+2. Technical Background
+Assemblers play a crucial role in translating assembly language instructions into machine code. This project utilizes linked lists to represent individual lines of assembly code and introduces advanced features such as error handling and the differentiation between indirect and non-indirect memory instructions.
+
+
+3. Methodology
+The methodology involves using linked lists, where each node encapsulates a line of assembly code. Classes such as CInput, CProgram, and InstructionSet leverage linked lists for dynamic management. The project also incorporates advanced features to differentiate between indirect and non-indirect memory instructions, enhancing the assembler's capability.
+
+
+4. Implementation Details
+In addition to the linked list-based representation of assembly code lines and error handling, the project introduces a feature that distinguishes between indirect and non-indirect memory instructions. This capability is implemented to ensure accurate translation of assembly code into machine code, considering the nuances of memory addressing modes.
+
+
+5. Challenges and Solutions
+The differentiation between indirect and non-indirect memory instructions posed challenges during development. Solutions involved refining the parsing and translation algorithms to accurately identify and handle memory addressing modes, ensuring the assembler's precision.
+
+
+6. Results and Discussion
+The assembler successfully utilizes linked lists to represent assembly code lines, incorporates effective error handling, and accurately distinguishes between indirect and non-indirect memory instructions. Examples in the input file demonstrate the advanced features of the assembler. The discussion emphasizes the impact of these features on the assembler's functionality.
+
+7. Conclusion
+The project concludes with insights into the enhanced flexibility brought by utilizing linked lists to represent assembly code lines, advanced error handling, and the ability to differentiate between indirect and non-indirect memory instructions. This advanced feature contributes to a deeper understanding of assemblers and their role in computer organization.
